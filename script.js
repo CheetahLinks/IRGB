@@ -100,9 +100,9 @@ function showResult() {
     colorScore.r1 = colorCounts.r > 0 ? Math.round((score.r / colorCounts.r) * 255 / 100) : 0;
     colorScore.g1 = colorCounts.g > 0 ? Math.round((score.g / colorCounts.g) * 255 / 100) : 0;
     colorScore.b1 = colorCounts.b > 0 ? Math.round((score.b / colorCounts.b) * 255 / 100) : 0;
-    colorScore.r2 = Math.round((score.r / (currentQuestions.length * 3)) * 255 / 100);
-    colorScore.g2 = Math.round((score.g / (currentQuestions.length * 3)) * 255 / 100);
-    colorScore.b2 = Math.round((score.b / (currentQuestions.length * 3)) * 255 / 100);
+    colorScore.r2 = Math.round((score.r / (currentQuestions.length)) * 255 / 100);
+    colorScore.g2 = Math.round((score.g / (currentQuestions.length)) * 255 / 100);
+    colorScore.b2 = Math.round((score.b / (currentQuestions.length)) * 255 / 100);
     const hex = `#${toHex(colorScore.r2)}${toHex(colorScore.g2)}${toHex(colorScore.b2)}`;
     const intensity = Math.round(((colorScore.r1 + colorScore.g1 + colorScore.b1) / (3 * 255)) * 100);
   
