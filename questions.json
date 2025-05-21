@@ -502,12 +502,12 @@
         "id": "042",
         "text": "Artificially delivering biomolecules to plant cells is important, but hard to do through the plant cell wall. What's the best way forward?",
         "color": "blue",
-        "weight": "easy",
+        "weight": "hard",
         "image": null,
         "answers": [
           { "text": "Overcome the barrier with nanotube technology", "rgb": [0, 0, 110] },
           { "text": "Neglect the issue and change the crop", "rgb": [0, 0, 0] },
-          { "text": "Conceptualize a new plant model", "rgb": [10, 10, 20] }
+          { "text": "Conceptualize a new plant model", "rgb": [50, 10, 20] }
         ]
       },
       {
