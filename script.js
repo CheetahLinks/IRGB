@@ -157,10 +157,13 @@ function showResult() {
     const colorScore = { r1: 0, r2: 0, g1: 0, g2: 0, b1: 0, b2: 0 };
     const totalScore = score.r + score.g + score.b;
     const maxScore = (colorCounts.r + colorCounts.g + colorCounts.b) * 100;
+    colorScore.r1 = (score.r / (colorCounts.r)) / 100 * 255;
+    colorScore.g1 = (score.g / (colorCounts.g)) / 100 * 255;
+    colorScore.b1 = (score.b / (colorCounts.b)) / 100 * 255;
     colorScore.r2 = Math.round((score.r / (currentQuestions.length)) * 255 / 100);
     colorScore.g2 = Math.round((score.g / (currentQuestions.length)) * 255 / 100);
     colorScore.b2 = Math.round((score.b / (currentQuestions.length)) * 255 / 100);
-    const hex = `#${toHex(colorScore.r2)}${toHex(colorScore.g2)}${toHex(colorScore.b2)}`;
+    const hex = `#${toHex(colorScore.r1)}${toHex(colorScore.g1)}${toHex(colorScore.b1)}`;
     const intensity = Math.round((totalScore / maxScore) * 100);
 
     const colorMap = [
