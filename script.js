@@ -163,7 +163,7 @@ function showResult() {
     colorScore.r2 = Math.round((score.r / (currentQuestions.length)) * 255 / 100);
     colorScore.g2 = Math.round((score.g / (currentQuestions.length)) * 255 / 100);
     colorScore.b2 = Math.round((score.b / (currentQuestions.length)) * 255 / 100);
-    const hex = `#${toHex(colorScore.r1)}${toHex(colorScore.g1)}${toHex(colorScore.b1)}`;
+    const hex = `#${toHex(colorScore.r2)}${toHex(colorScore.g2)}${toHex(colorScore.b2)}`;
     const intensity = Math.round((totalScore / maxScore) * 100);
 
     const colorMap = [
