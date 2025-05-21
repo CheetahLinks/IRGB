@@ -93,3 +93,14 @@ body {
     width: 200px;
     height: 100px;
   }
+
+  #intensity-label {
+    font-size: 1.1rem;
+    color: #222;
+  }
+  
+  #intensity-comment {
+    font-size: 0.95rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
