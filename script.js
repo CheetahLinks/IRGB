@@ -131,14 +131,13 @@ function showResult() {
     let comment = "";
 
     const colorScore = { r1: 0, r2: 0, g1: 0, g2: 0, b1: 0, b2: 0 };
-    colorScore.r1 = Math.round(score.r / (colorCounts.r * 100));
-    colorScore.g1 = Math.round(score.g / (colorCounts.g * 100));
-    colorScore.b1 = Math.round(score.b / (colorCounts.b * 100));
+    const totalScore = score.r + score.g + score.b;
+    const maxScore = (colorCounts.r + colorCounts.g + colorCounts.b) * 100;
     colorScore.r2 = Math.round((score.r / (currentQuestions.length)) * 255 / 100);
     colorScore.g2 = Math.round((score.g / (currentQuestions.length)) * 255 / 100);
     colorScore.b2 = Math.round((score.b / (currentQuestions.length)) * 255 / 100);
     const hex = `#${toHex(colorScore.r2)}${toHex(colorScore.g2)}${toHex(colorScore.b2)}`;
-    const intensity = Math.round(((colorScore.r1 + colorScore.g1 + colorScore.b1) / 3) * 100);
+    const intensity = Math.round((totalScore / maxScore) * 100);
 
     const colorMap = [
         { label: 'Red – Free-Thinking', key: 'r1', value: colorScore.r1 },
