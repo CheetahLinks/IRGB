@@ -43,9 +43,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-            { "text": "Break down what a 'solution' really means", "rgb": [110, 30, 20] },
+            { "text": "Break down what a 'solution' really means", "rgb": [100, 30, 20] },
             { "text": "Start brainstorming ideas without limitation", "rgb": [100, 50, 20] },
-            { "text": "Ask for clarification or structure", "rgb": [0, 20, 110] }
+            { "text": "Ask for clarification or structure", "rgb": [0, 20, 100] }
         ]
     },      
     {
@@ -55,9 +55,9 @@
         "weight": "medium",
         "image": "images/May202025072740.png",
         "answers": [
-            { "text": "Curiosity, like something's hidden", "rgb": [50, 110, 20] },
-            { "text": "Anxiety or a feeling of chaos", "rgb": [20, 110, 40] },
-            { "text": "Nothing really, just colors and lines", "rgb": [0, 0, 110] }
+            { "text": "Curiosity, like something's hidden", "rgb": [50, 100, 20] },
+            { "text": "Anxiety or a feeling of chaos", "rgb": [20, 100, 40] },
+            { "text": "Nothing really, just colors and lines", "rgb": [0, 0, 100] }
         ]
     },
     {
@@ -69,7 +69,7 @@
         "answers": [
             { "text": "450", "rgb": [0, 0, 0] },
             { "text": "900", "rgb": [0, 0, 0] },
-            { "text": "30", "rgb": [0, 0, 110] },
+            { "text": "30", "rgb": [0, 0, 100] },
             { "text": "6", "rgb": [0, 0, 0] }
         ]
     },
@@ -80,9 +80,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "Time is broken and unpredictable", "rgb": [120, 40, 30] },
-            { "text": "A moment frozen in time", "rgb": [50, 120, 30] },
-            { "text": "Just a broken object, nothing more", "rgb": [0, 0, 120] }
+            { "text": "Time is broken and unpredictable", "rgb": [100, 40, 30] },
+            { "text": "A moment frozen in time", "rgb": [50, 100, 30] },
+            { "text": "Just a broken object, nothing more", "rgb": [0, 0, 100] }
         ]
     },
     {
@@ -93,14 +93,14 @@
         "image": "images/May202025072501.png",
         "answers": [
             { "text": "Time is chaotic and unpredictable", "rgb": [50, 100, 20] },
-            { "text": "Time is harsh, painful, and unpredictable", "rgb": [40, 120, 30] },
-            { "text": "It captures the complexity of aging", "rgb": [60, 110, 50] },
-            { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 120] }
+            { "text": "Time is harsh, painful, and unpredictable", "rgb": [40, 100, 30] },
+            { "text": "It captures the complexity of aging", "rgb": [60, 100, 50] },
+            { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 100] }
         ]
     },
     {
         "id": "009",
-        "text": "If a train leaves Point A at 60mph and another leaves Point B at 45mph, 120 miles apart, when do they meet?",
+        "text": "If a train leaves Point A at 60mph and another leaves Point B at 45mph, 100 miles apart, when do they meet?",
         "color": "blue",
         "weight": "hard",
         "image": null,
@@ -108,7 +108,7 @@
             { "text": "2.09 hours", "rgb": [0, 0, 0] },
             { "text": "2 hours", "rgb": [0, 0, 0] },
             { "text": "1.2 hours", "rgb": [0, 0, 0] },
-            { "text": "1.09 hours", "rgb": [0, 0, 120] }
+            { "text": "1.09 hours", "rgb": [0, 0, 100] }
         ]
     },
     {
@@ -118,9 +118,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "How sounds feel when spoken", "rgb": [120, 40, 10] },
+            { "text": "How sounds feel when spoken", "rgb": [100, 40, 10] },
             { "text": "What cultural stories it might carry", "rgb": [40, 100, 30] },
-            { "text": "How consistent and learnable it is", "rgb": [0, 10, 110] }
+            { "text": "How consistent and learnable it is", "rgb": [0, 10, 100] }
         ]
     },
     {
@@ -130,9 +130,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-            { "text": "A sense of innocence and wonder", "rgb": [30, 120, 20] },
-            { "text": "A sense of nostalgia or memory", "rgb": [20, 120, 30] },
-            { "text": "Curiosity about what they’re imagining", "rgb": [50, 110, 20] },
+            { "text": "A sense of innocence and wonder", "rgb": [30, 100, 20] },
+            { "text": "A sense of nostalgia or memory", "rgb": [20, 100, 30] },
+            { "text": "Curiosity about what they’re imagining", "rgb": [50, 100, 20] },
             { "text": "Neutral — just ambient sound", "rgb": [0, 0, 100] }
         ]
     },
@@ -143,7 +143,7 @@
         "weight": "easy",
         "image": null,
         "answers": [
-            { "text": "A number only divisible by 1 and itself", "rgb": [0, 0, 110] },
+            { "text": "A number only divisible by 1 and itself", "rgb": [0, 0, 100] },
             { "text": "A number that repeats in patterns", "rgb": [20, 20, 20] },
             { "text": "A number greater than 10 with no factors", "rgb": [0, 0, 0] }
         ]
@@ -155,9 +155,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-            { "text": "Open it without hesitation", "rgb": [110, 40, 10] },
+            { "text": "Open it without hesitation", "rgb": [100, 40, 10] },
             { "text": "Look for clues about why it’s there", "rgb": [30, 80, 40] },
-            { "text": "Check if it’s part of a hidden mechanism", "rgb": [0, 10, 110] }
+            { "text": "Check if it’s part of a hidden mechanism", "rgb": [0, 10, 100] }
         ]
     },
     {
@@ -165,11 +165,11 @@
         "text": "This photo shows a lone figure walking through fog. What does it express?",
         "color": "green",
         "weight": "hard",
-        "image": "images/May212025023111.png",
+        "image": "images/May210025023111.png",
         "answers": [
-            { "text": "Isolation, yet peace", "rgb": [30, 120, 20] },
-            { "text": "Uncertainty about the future", "rgb": [50, 110, 40] },
-            { "text": "Nothing — just someone walking", "rgb": [0, 0, 120] }
+            { "text": "Isolation, yet peace", "rgb": [30, 100, 20] },
+            { "text": "Uncertainty about the future", "rgb": [50, 100, 40] },
+            { "text": "Nothing — just someone walking", "rgb": [0, 0, 100] }
         ]
     },
     {
@@ -179,7 +179,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-            { "text": "Check logs and identify failure point", "rgb": [0, 0, 110] },
+            { "text": "Check logs and identify failure point", "rgb": [0, 0, 100] },
             { "text": "Replace the faulty unit and monitor", "rgb": [10, 10, 90] },
             { "text": "Reconsider how the system is designed", "rgb": [50, 40, 20] }
         ]
@@ -215,9 +215,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-            { "text": "Disappointment at the lack of fit", "rgb": [120, 40, 30] },
+            { "text": "Disappointment at the lack of fit", "rgb": [100, 40, 30] },
             { "text": "Frustration at the lack of order", "rgb": [20, 0, 80] },
-            { "text": "Curiosity about its origin", "rgb": [110, 60, 10] },
+            { "text": "Curiosity about its origin", "rgb": [100, 60, 10] },
             { "text": "Acceptance that not everything fits", "rgb": [0, 50, 50] }
         ]
     },
@@ -228,9 +228,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "Spatial awareness and balance", "rgb": [120, 40, 30] },
+            { "text": "Spatial awareness and balance", "rgb": [100, 40, 30] },
             { "text": "Creativity in building and design", "rgb": [40, 100, 30] },
-            { "text": "Just having fun with no deeper meaning", "rgb": [0, 10, 110] }
+            { "text": "Just having fun with no deeper meaning", "rgb": [0, 10, 100] }
         ]
     },
     {
@@ -238,12 +238,12 @@
         "text": "A painting shows a stormy sea. What does it evoke for you?",
         "color": "green",
         "weight": "hard",
-        "image": "images/May212025022904.png",
+        "image": "images/May210025022904.png",
         "answers": [
-            { "text": "The unpredictability of nature", "rgb": [30, 120, 20] },
-            { "text": "Chaos and unpredictability of life", "rgb": [40, 120, 30] },
-            { "text": "The beauty of nature's power", "rgb": [60, 110, 50] },
-            { "text": "Just colors and shapes without meaning", "rgb": [0, 0, 120] }
+            { "text": "The unpredictability of nature", "rgb": [30, 100, 20] },
+            { "text": "Chaos and unpredictability of life", "rgb": [40, 100, 30] },
+            { "text": "The beauty of nature's power", "rgb": [60, 100, 50] },
+            { "text": "Just colors and shapes without meaning", "rgb": [0, 0, 100] }
         ]
     },
     {
@@ -253,9 +253,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "Explore until something makes sense", "rgb": [120, 30, 10] },
-            { "text": "Create your own meaning or system", "rgb": [110, 40, 20] },
-            { "text": "Wait for structure to appear", "rgb": [0, 20, 110] }
+            { "text": "Explore until something makes sense", "rgb": [100, 30, 10] },
+            { "text": "Create your own meaning or system", "rgb": [100, 40, 20] },
+            { "text": "Wait for structure to appear", "rgb": [0, 20, 100] }
         ]
     },
     {
@@ -277,9 +277,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "The creative potential of such a world", "rgb": [120, 40, 10] },
+            { "text": "The creative potential of such a world", "rgb": [100, 40, 10] },
             { "text": "How life and ecosystems would adapt", "rgb": [40, 100, 30] },
-            { "text": "The physical consequences and math", "rgb": [0, 0, 120] }
+            { "text": "The physical consequences and math", "rgb": [0, 0, 100] }
         ]
     },
     {
@@ -289,8 +289,8 @@
         "weight": "easy",
         "image": null,
         "answers": [
-            { "text": "A story forming in your mind", "rgb": [30, 110, 30] },
-            { "text": "A sudden wave of emotion", "rgb": [50, 110, 30] },
+            { "text": "A story forming in your mind", "rgb": [30, 100, 30] },
+            { "text": "A sudden wave of emotion", "rgb": [50, 100, 30] },
             { "text": "Mild curiosity about the source", "rgb": [0, 10, 100] }
         ]
       },
@@ -299,11 +299,11 @@
         "text": "This image shows an abandoned building. What comes to mind?",
         "color": "green",
         "weight": "medium",
-        "image": "images/May212025030524.png",
+        "image": "images/May210025030524.png",
         "answers": [
-            { "text": "A lost story waiting to be uncovered", "rgb": [40, 110, 30] },
-            { "text": "A place echoing with emotion", "rgb": [50, 110, 40] },
-            { "text": "A structure falling apart", "rgb": [0, 10, 110] }
+            { "text": "A lost story waiting to be uncovered", "rgb": [40, 100, 30] },
+            { "text": "A place echoing with emotion", "rgb": [50, 100, 40] },
+            { "text": "A structure falling apart", "rgb": [0, 10, 100] }
         ]
       },
       {
@@ -313,9 +313,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "They’re lost in memory or thought", "rgb": [40, 120, 30] },
-            { "text": "They’re emotionally detached", "rgb": [60, 110, 50] },
-            { "text": "They’re just looking at scenery", "rgb": [0, 0, 110] }
+            { "text": "They’re lost in memory or thought", "rgb": [40, 100, 30] },
+            { "text": "They’re emotionally detached", "rgb": [60, 100, 50] },
+            { "text": "They’re just looking at scenery", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -326,7 +326,7 @@
         "image": null,
         "answers": [
             { "text": "23", "rgb": [0, 0, 0] },
-            { "text": "27", "rgb": [0, 0, 110] },
+            { "text": "27", "rgb": [0, 0, 100] },
             { "text": "26", "rgb": [0, 0, 0] }
         ]
       },
@@ -337,7 +337,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-            { "text": "Efficiency and stability", "rgb": [0, 0, 110] },
+            { "text": "Efficiency and stability", "rgb": [0, 0, 100] },
             { "text": "The system’s adaptability", "rgb": [30, 40, 40] },
             { "text": "The symbolic potential of the design", "rgb": [90, 20, 20] }
         ]
@@ -349,7 +349,7 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "Something is out of sync mechanically", "rgb": [0, 0, 120] },
+            { "text": "Something is out of sync mechanically", "rgb": [0, 0, 100] },
             { "text": "It’s metaphorical — like time distortion", "rgb": [90, 20, 40] },
             { "text": "It's part of a surreal narrative", "rgb": [100, 40, 10] }
         ]
@@ -361,9 +361,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-            { "text": "An endless climb with no final answer", "rgb": [110, 30, 20] },
-            { "text": "A metaphor for personal growth", "rgb": [30, 110, 30] },
-            { "text": "A space-efficient architectural choice", "rgb": [0, 0, 110] }
+            { "text": "An endless climb with no final answer", "rgb": [100, 30, 20] },
+            { "text": "A metaphor for personal growth", "rgb": [30, 100, 30] },
+            { "text": "A space-efficient architectural choice", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -373,9 +373,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "It holds a hidden or ancient meaning", "rgb": [110, 30, 10] },
+          { "text": "It holds a hidden or ancient meaning", "rgb": [100, 30, 10] },
           { "text": "It could represent emotion or feeling", "rgb": [40, 100, 30] },
-          { "text": "It’s just a random shape", "rgb": [0, 0, 110] }
+          { "text": "It’s just a random shape", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -385,9 +385,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Reality is shifting — and so must we", "rgb": [120, 30, 10] },
-          { "text": "That would create poetic forms of movement", "rgb": [50, 110, 20] },
-          { "text": "Need to recalculate physics models", "rgb": [0, 0, 120] }
+          { "text": "Reality is shifting — and so must we", "rgb": [100, 30, 10] },
+          { "text": "That would create poetic forms of movement", "rgb": [50, 100, 20] },
+          { "text": "Need to recalculate physics models", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -409,9 +409,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Feelings before structure — that’s beautiful", "rgb": [40, 110, 30] },
-          { "text": "Try to interpret the emotional message", "rgb": [30, 120, 40] },
-          { "text": "It’s meaningless without clarity", "rgb": [0, 0, 110] }
+          { "text": "Feelings before structure — that’s beautiful", "rgb": [40, 100, 30] },
+          { "text": "Try to interpret the emotional message", "rgb": [30, 100, 40] },
+          { "text": "It’s meaningless without clarity", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -421,9 +421,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "They’re speaking in the only way they can", "rgb": [40, 120, 30] },
-          { "text": "They’re channeling something deep within", "rgb": [60, 110, 40] },
-          { "text": "They’re avoiding verbal communication", "rgb": [0, 10, 110] }
+          { "text": "They’re speaking in the only way they can", "rgb": [40, 100, 30] },
+          { "text": "They’re channeling something deep within", "rgb": [60, 100, 40] },
+          { "text": "They’re avoiding verbal communication", "rgb": [0, 10, 100] }
         ]
       },
       {
@@ -431,11 +431,11 @@
         "text": "This image shows a wilted flower under sunlight. What do you feel?",
         "color": "green",
         "weight": "medium",
-        "image": "images/May212025030854.png",
+        "image": "images/May210025030854.png",
         "answers": [
-          { "text": "Sadness — beauty is fading", "rgb": [40, 110, 30] },
+          { "text": "Sadness — beauty is fading", "rgb": [40, 100, 30] },
           { "text": "Hope — life once bloomed here", "rgb": [50, 100, 40] },
-          { "text": "Heat stress and biological decay", "rgb": [0, 0, 110] }
+          { "text": "Heat stress and biological decay", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -445,7 +445,7 @@
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "12", "rgb": [0, 0, 110] },
+          { "text": "12", "rgb": [0, 0, 100] },
           { "text": "6", "rgb": [0, 0, 0] },
           { "text": "18", "rgb": [0, 0, 0] }
         ]
@@ -457,7 +457,7 @@
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "Assess needs and distribute proportionally", "rgb": [0, 0, 120] },
+          { "text": "Assess needs and distribute proportionally", "rgb": [0, 0, 100] },
           { "text": "Balance all equally for stability", "rgb": [10, 20, 100] },
           { "text": "Focus on the most important first", "rgb": [30, 30, 40] }
         ]
@@ -469,7 +469,7 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "O", "rgb": [0, 0, 110] },
+          { "text": "O", "rgb": [0, 0, 100] },
           { "text": "N", "rgb": [0, 0, 10] },
           { "text": "P", "rgb": [0, 0, 10] }
         ]
@@ -481,9 +481,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "A fractured sense of identity", "rgb": [110, 30, 30] },
+          { "text": "A fractured sense of identity", "rgb": [100, 30, 30] },
           { "text": "A symbol of change or awakening", "rgb": [40, 100, 30] },
-          { "text": "Just broken glass, no deeper meaning", "rgb": [0, 0, 110] }
+          { "text": "Just broken glass, no deeper meaning", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -494,8 +494,8 @@
         "image": null,
         "answers": [
           { "text": "An infinite cycle", "rgb": [100, 30, 20] },
-          { "text": "A peaceful visual metaphor", "rgb": [40, 110, 20] },
-          { "text": "A geometric shape with symmetry", "rgb": [0, 0, 120] }
+          { "text": "A peaceful visual metaphor", "rgb": [40, 100, 20] },
+          { "text": "A geometric shape with symmetry", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -505,7 +505,7 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Overcome the barrier with nanotube technology", "rgb": [0, 0, 110] },
+          { "text": "Overcome the barrier with nanotube technology", "rgb": [0, 0, 100] },
           { "text": "Neglect the issue and change the crop", "rgb": [0, 0, 0] },
           { "text": "Conceptualize a new plant model", "rgb": [50, 10, 20] }
         ]
@@ -519,7 +519,7 @@
         "answers": [
           { "text": "Poets reflect the author’s view of communication", "rgb": [40, 100, 50] },
           { "text": "It’s a narrative trope reused too often", "rgb": [0, 0, 90] },
-          { "text": "Poets aren’t typical but they hold symbolic roles", "rgb": [30, 110, 60] }
+          { "text": "Poets aren’t typical but they hold symbolic roles", "rgb": [30, 100, 60] }
         ]
       },
       {
@@ -529,7 +529,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "A strong advocate for equitable access", "rgb": [0, 0, 110] },
+          { "text": "A strong advocate for equitable access", "rgb": [0, 0, 100] },
           { "text": "A well-known psychologist but not impactful", "rgb": [0, 0, 0] },
           { "text": "A minor figure remembered mostly for the school", "rgb": [0, 10, 30] }
         ]
@@ -541,9 +541,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Awe and wonder at the contrast in nature", "rgb": [40, 120, 50] },
+          { "text": "Awe and wonder at the contrast in nature", "rgb": [40, 100, 50] },
           { "text": "Symbolic tension between beauty and mortality", "rgb": [60, 100, 60] },
-          { "text": "Just figurative language with no deeper meaning", "rgb": [0, 0, 110] }
+          { "text": "Just figurative language with no deeper meaning", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -553,7 +553,7 @@
         "weight": "hard",
         "image": null,
         "answers": [
-            { "text": "Panels allow for more diverse perspectives", "rgb": [0, 0, 120] },
+            { "text": "Panels allow for more diverse perspectives", "rgb": [0, 0, 100] },
             { "text": "Debates often lead to emotional arguments", "rgb": [60, 40, 20] },
             { "text": "Panels are less structured and more chaotic", "rgb": [20, 0, 100] },
             { "text": "Debates are more entertaining than informative", "rgb": [50, 0, 0] }
@@ -566,7 +566,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "An evolutionary strategy to offload parenting", "rgb": [0, 0, 110] },
+          { "text": "An evolutionary strategy to offload parenting", "rgb": [0, 0, 100] },
           { "text": "A symbolic gesture of trust between species", "rgb": [60, 40, 10] },
           { "text": "Just a strange habit with no pattern", "rgb": [0, 0, 0] }
         ]
@@ -578,7 +578,7 @@
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "Mycorrhizal fungi improve nutrient absorption", "rgb": [0, 0, 110] },
+          { "text": "Mycorrhizal fungi improve nutrient absorption", "rgb": [0, 0, 100] },
           { "text": "Fungi emotionally support the plants", "rgb": [60, 20, 30] },
           { "text": "The difference is probably coincidence", "rgb": [0, 0, 10] }
         ]
@@ -590,7 +590,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "There was migration or transfer between them", "rgb": [0, 0, 120] },
+          { "text": "There was migration or transfer between them", "rgb": [0, 0, 100] },
           { "text": "The similarity is spiritual or symbolic", "rgb": [60, 40, 20] },
           { "text": "They must have always lived together", "rgb": [10, 10, 30] }
         ]
@@ -602,8 +602,8 @@
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "She finds comfort and purpose in care", "rgb": [20, 110, 40] },
-          { "text": "She sees the garden as a metaphor for healing", "rgb": [30, 120, 50] },
+          { "text": "She finds comfort and purpose in care", "rgb": [20, 100, 40] },
+          { "text": "She sees the garden as a metaphor for healing", "rgb": [30, 100, 50] },
           { "text": "She is completing a task she was told to do", "rgb": [0, 0, 90] }
         ]
       },
@@ -614,7 +614,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "The mind flourishes with nourishment", "rgb": [40, 110, 40] },
+          { "text": "The mind flourishes with nourishment", "rgb": [40, 100, 40] },
           { "text": "The mind decays when logic is absent", "rgb": [0, 10, 100] },
           { "text": "All comparisons are inherently flawed", "rgb": [90, 20, 20] }
         ]
@@ -626,9 +626,9 @@
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "The dog has formed a deep, selective bond", "rgb": [30, 110, 40] },
+          { "text": "The dog has formed a deep, selective bond", "rgb": [30, 100, 40] },
           { "text": "The dog views others as threats to its leader", "rgb": [20, 90, 40] },
-          { "text": "The dog is just obeying conditioning", "rgb": [0, 0, 110] }
+          { "text": "The dog is just obeying conditioning", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -638,7 +638,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Human foods can biologically alter animal cycles", "rgb": [0, 0, 120] },
+          { "text": "Human foods can biologically alter animal cycles", "rgb": [0, 0, 100] },
           { "text": "Sugar is symbolic of modern disruption", "rgb": [40, 50, 20] },
           { "text": "Correlation does not imply causation", "rgb": [0, 0, 40] }
         ]
@@ -650,7 +650,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Cats map spatial presence from audio cues", "rgb": [0, 0, 120] },
+          { "text": "Cats map spatial presence from audio cues", "rgb": [0, 0, 100] },
           { "text": "Cats feel emotions like betrayal", "rgb": [50, 60, 20] },
           { "text": "Speakers confuse animal hearing systems", "rgb": [0, 0, 40] }
         ]
@@ -662,7 +662,7 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "The flowers trigger discomfort or grief", "rgb": [40, 120, 40] },
+          { "text": "The flowers trigger discomfort or grief", "rgb": [40, 100, 40] },
           { "text": "She rejects symbols of beauty and tradition", "rgb": [60, 100, 30] },
           { "text": "She’s sensitive to pollen", "rgb": [0, 0, 100] }
         ]
@@ -674,7 +674,7 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "It’s a metaphor for chasing the impossible", "rgb": [110, 30, 10] },
+          { "text": "It’s a metaphor for chasing the impossible", "rgb": [100, 30, 10] },
           { "text": "A dream symbol about progress", "rgb": [40, 90, 30] },
           { "text": "It’s an unsafe and unrealistic structure", "rgb": [0, 0, 100] }
         ]
@@ -686,9 +686,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Reality has shifted — I’m someone new", "rgb": [120, 30, 10] },
+          { "text": "Reality has shifted — I’m someone new", "rgb": [100, 30, 10] },
           { "text": "My identity is fractured or hidden", "rgb": [60, 100, 30] },
-          { "text": "There must be a logical explanation", "rgb": [0, 0, 110] }
+          { "text": "There must be a logical explanation", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -698,7 +698,7 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "A sense of freedom and creative motion", "rgb": [120, 30, 20] },
+          { "text": "A sense of freedom and creative motion", "rgb": [100, 30, 20] },
           { "text": "It reflects chaos within structured systems", "rgb": [50, 90, 40] },
           { "text": "That’s inefficient and unsustainable", "rgb": [0, 0, 100] }
         ]
@@ -710,9 +710,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Numbers are ideas — I’ll create one with new logic", "rgb": [110, 40, 20] },
+          { "text": "Numbers are ideas — I’ll create one with new logic", "rgb": [100, 40, 20] },
           { "text": "I’d look for patterns or gaps in existing numbers", "rgb": [30, 100, 30] },
-          { "text": "You can’t just invent a number", "rgb": [0, 0, 110] }
+          { "text": "You can’t just invent a number", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -734,9 +734,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Reality bends to perception — that’s powerful", "rgb": [120, 40, 10] },
+          { "text": "Reality bends to perception — that’s powerful", "rgb": [100, 40, 10] },
           { "text": "That’s a beautiful metaphor for subjectivity", "rgb": [50, 100, 30] },
-          { "text": "It’s a trick — the contents are static", "rgb": [0, 0, 110] }
+          { "text": "It’s a trick — the contents are static", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -746,9 +746,9 @@
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Life insists on expressing itself", "rgb": [110, 30, 10] },
+          { "text": "Life insists on expressing itself", "rgb": [100, 30, 10] },
           { "text": "Hope against overwhelming odds", "rgb": [40, 100, 30] },
-          { "text": "It’s just a plant in harsh conditions", "rgb": [0, 0, 110] }
+          { "text": "It’s just a plant in harsh conditions", "rgb": [0, 0, 100] }
         ]
       },
       {
@@ -758,9 +758,9 @@
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Free — I’d redefine myself constantly", "rgb": [120, 30, 20] },
+          { "text": "Free — I’d redefine myself constantly", "rgb": [100, 30, 20] },
           { "text": "Lost — identity is part of self", "rgb": [40, 100, 30] },
-          { "text": "Unchanged — a name doesn’t alter who I am", "rgb": [0, 0, 110] }
+          { "text": "Unchanged — a name doesn’t alter who I am", "rgb": [0, 0, 100] }
         ]
       },
       {
