@@ -73,6 +73,10 @@ function showQuestion(index) {
         score.r += ans.rgb[0];
         score.g += ans.rgb[1];
         score.b += ans.rgb[2];
+        document.querySelectorAll('.answer-btn').forEach(b => {
+            if (b.classList.contains('selected')) 
+                b.classList.remove('selected');
+        });
         btn.classList.add('selected');
         nextBtn.disabled = false;
         };
