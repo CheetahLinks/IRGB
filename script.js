@@ -124,7 +124,7 @@ function showResult() {
     colorScore.g2 = Math.round((score.g / (currentQuestions.length)) * 255 / 100);
     colorScore.b2 = Math.round((score.b / (currentQuestions.length)) * 255 / 100);
     const hex = `#${toHex(colorScore.r2)}${toHex(colorScore.g2)}${toHex(colorScore.b2)}`;
-    const intensity = Math.round(colorScore.r1 + colorScore.g1 + colorScore.b1);
+    const intensity = Math.round(((colorScore.r1 + colorScore.g1 + colorScore.b1) / 3) * 100);
 
     const colorMap = [
         { label: 'Red – Free-Thinking', key: 'r1', value: colorScore.r1 },
