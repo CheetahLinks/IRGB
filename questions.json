@@ -1,246 +1,790 @@
 {
     "questions": [
-      {
+    {
         "id": "001",
         "text": "You're given a blank canvas. What's your first thought?",
         "color": "red",
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "An opportunity to explore without rules", "rgb": [100, 20, 0] },
-          { "text": "A surface to create a masterpiece", "rgb": [30, 100, 10] },
-          { "text": "A tool to practice technical drawing", "rgb": [0, 20, 100] }
+            { "text": "An opportunity to explore without rules", "rgb": [100, 20, 0] },
+            { "text": "A surface to create a masterpiece", "rgb": [30, 100, 10] },
+            { "text": "A tool to practice technical drawing", "rgb": [0, 20, 100] }
         ]
-      },
-      {
+    },
+    {
         "id": "002",
         "text": "Look at this image of a quiet mountain stream. What stands out most to you?",
         "color": "green",
         "weight": "easy",
         "image": "images/May202025065932.png",
         "answers": [
-          { "text": "The peacefulness and natural flow", "rgb": [10, 100, 10] },
-          { "text": "The shapes and textures of the rocks", "rgb": [90, 40, 10] },
-          { "text": "How the environment could be mapped in 3D", "rgb": [0, 10, 100] }
+            { "text": "The peacefulness and natural flow", "rgb": [10, 100, 10] },
+            { "text": "The shapes and textures of the rocks", "rgb": [90, 40, 10] },
+            { "text": "How the environment could be mapped in 3D", "rgb": [0, 10, 100] }
         ]
-      },
-      {
+    },
+    {
         "id": "003",
         "text": "What is the next number in the sequence: 2, 4, 8, 16, __?",
         "color": "blue",
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "20", "rgb": [0, 0, 0] },
-          { "text": "24", "rgb": [10, 20, 10] },
-          { "text": "32", "rgb": [0, 0, 100] }
+            { "text": "20", "rgb": [0, 0, 0] },
+            { "text": "24", "rgb": [10, 20, 10] },
+            { "text": "32", "rgb": [0, 0, 100] }
         ]
-      },
-      {
+    },
+    {
         "id": "004",
         "text": "You are told to solve a problem with no rules or tools. What do you do first?",
         "color": "red",
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Break down what a 'solution' really means", "rgb": [110, 30, 20] },
-          { "text": "Start brainstorming ideas without limitation", "rgb": [100, 50, 20] },
-          { "text": "Ask for clarification or structure", "rgb": [0, 20, 110] }
+            { "text": "Break down what a 'solution' really means", "rgb": [110, 30, 20] },
+            { "text": "Start brainstorming ideas without limitation", "rgb": [100, 50, 20] },
+            { "text": "Ask for clarification or structure", "rgb": [0, 20, 110] }
         ]
-      },      
-      {
+    },      
+    {
         "id": "005",
         "text": "What emotion does this abstract painting evoke most?",
         "color": "green",
         "weight": "medium",
         "image": "images/May202025072740.png",
         "answers": [
-          { "text": "Curiosity, like something's hidden", "rgb": [50, 110, 20] },
-          { "text": "Anxiety or a feeling of chaos", "rgb": [20, 110, 40] },
-          { "text": "Nothing really, just colors and lines", "rgb": [0, 0, 110] }
+            { "text": "Curiosity, like something's hidden", "rgb": [50, 110, 20] },
+            { "text": "Anxiety or a feeling of chaos", "rgb": [20, 110, 40] },
+            { "text": "Nothing really, just colors and lines", "rgb": [0, 0, 110] }
         ]
-      },
-      {
+    },
+    {
         "id": "006",
         "text": "What is a solution to the equation x^2 / 36 = 25?",
         "color": "blue",
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "450", "rgb": [0, 0, 0] },
-          { "text": "900", "rgb": [0, 0, 0] },
-          { "text": "30", "rgb": [0, 0, 110] },
-          { "text": "6", "rgb": [0, 0, 0] }
+            { "text": "450", "rgb": [0, 0, 0] },
+            { "text": "900", "rgb": [0, 0, 0] },
+            { "text": "30", "rgb": [0, 0, 110] },
+            { "text": "6", "rgb": [0, 0, 0] }
         ]
-      },
-      {
+    },
+    {
         "id": "007",
         "text": "You find a broken clock. What do you think it represents?",
         "color": "red",
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Time is broken and unpredictable", "rgb": [120, 40, 30] },
-          { "text": "A moment frozen in time", "rgb": [50, 120, 30] },
-          { "text": "Just a broken object, nothing more", "rgb": [0, 0, 120] }
+            { "text": "Time is broken and unpredictable", "rgb": [120, 40, 30] },
+            { "text": "A moment frozen in time", "rgb": [50, 120, 30] },
+            { "text": "Just a broken object, nothing more", "rgb": [0, 0, 120] }
         ]
-      },
-      {
+    },
+    {
         "id": "008",
         "text": "A sculpture uses jagged, twisted metal to represent time. What interpretation feels most natural to you?",
         "color": "green",
         "weight": "hard",
         "image": "images/May202025072501.png",
         "answers": [
-          { "text": "Time is harsh, painful, and unpredictable", "rgb": [40, 120, 30] },
-          { "text": "It captures the complexity of aging", "rgb": [60, 110, 50] },
-          { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 120] }
+            { "text": "Time is chaotic and unpredictable", "rgb": [50, 100, 20] },
+            { "text": "Time is harsh, painful, and unpredictable", "rgb": [40, 120, 30] },
+            { "text": "It captures the complexity of aging", "rgb": [60, 110, 50] },
+            { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 120] }
         ]
-      },
-      {
+    },
+    {
         "id": "009",
         "text": "If a train leaves Point A at 60mph and another leaves Point B at 45mph, 120 miles apart, when do they meet?",
         "color": "blue",
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "1 hour", "rgb": [0, 0, 0] },
-          { "text": "1.2 hours", "rgb": [0, 0, 0] },
-          { "text": "1.09 hours", "rgb": [0, 0, 120] }
+            { "text": "2.09 hours", "rgb": [0, 0, 0] },
+            { "text": "2 hours", "rgb": [0, 0, 0] },
+            { "text": "1.2 hours", "rgb": [0, 0, 0] },
+            { "text": "1.09 hours", "rgb": [0, 0, 120] }
         ]
-      },
-      {
+    },
+    {
         "id": "010",
         "text": "You're asked to create a new language. What guides your first decisions?",
         "color": "red",
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "How sounds feel when spoken", "rgb": [120, 40, 10] },
-          { "text": "What cultural stories it might carry", "rgb": [40, 100, 30] },
-          { "text": "How consistent and learnable it is", "rgb": [0, 10, 110] }
+            { "text": "How sounds feel when spoken", "rgb": [120, 40, 10] },
+            { "text": "What cultural stories it might carry", "rgb": [40, 100, 30] },
+            { "text": "How consistent and learnable it is", "rgb": [0, 10, 110] }
         ]
-      },
-      {
+    },
+    {
         "id": "011",
         "text": "You hear a child humming to themselves in a hallway. What do you feel?",
         "color": "green",
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "A sense of nostalgia or memory", "rgb": [20, 120, 30] },
-          { "text": "Curiosity about what they’re imagining", "rgb": [50, 110, 20] },
-          { "text": "Neutral — just ambient sound", "rgb": [0, 0, 100] }
+            { "text": "A sense of innocence and wonder", "rgb": [30, 120, 20] },
+            { "text": "A sense of nostalgia or memory", "rgb": [20, 120, 30] },
+            { "text": "Curiosity about what they’re imagining", "rgb": [50, 110, 20] },
+            { "text": "Neutral — just ambient sound", "rgb": [0, 0, 100] }
         ]
-      },
-      {
+    },
+    {
         "id": "012",
         "text": "Which of the following best describes a prime number?",
         "color": "blue",
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "A number only divisible by 1 and itself", "rgb": [0, 0, 110] },
-          { "text": "A number that repeats in patterns", "rgb": [20, 20, 20] },
-          { "text": "A number greater than 10 with no factors", "rgb": [0, 0, 0] }
+            { "text": "A number only divisible by 1 and itself", "rgb": [0, 0, 110] },
+            { "text": "A number that repeats in patterns", "rgb": [20, 20, 20] },
+            { "text": "A number greater than 10 with no factors", "rgb": [0, 0, 0] }
         ]
-      },
-      {
+    },
+    {
         "id": "013",
         "text": "A door appears in the middle of a field. What do you do?",
         "color": "red",
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Open it without hesitation", "rgb": [110, 40, 10] },
-          { "text": "Look for clues about why it’s there", "rgb": [30, 80, 40] },
-          { "text": "Check if it’s part of a hidden mechanism", "rgb": [0, 10, 110] }
+            { "text": "Open it without hesitation", "rgb": [110, 40, 10] },
+            { "text": "Look for clues about why it’s there", "rgb": [30, 80, 40] },
+            { "text": "Check if it’s part of a hidden mechanism", "rgb": [0, 10, 110] }
         ]
-      },
-      {
+    },
+    {
         "id": "014",
         "text": "This photo shows a lone figure walking through fog. What does it express?",
         "color": "green",
         "weight": "hard",
         "image": "images/May212025023111.png",
         "answers": [
-          { "text": "Isolation, yet peace", "rgb": [30, 120, 20] },
-          { "text": "Uncertainty about the future", "rgb": [50, 110, 40] },
-          { "text": "Nothing — just someone walking", "rgb": [0, 0, 120] }
+            { "text": "Isolation, yet peace", "rgb": [30, 120, 20] },
+            { "text": "Uncertainty about the future", "rgb": [50, 110, 40] },
+            { "text": "Nothing — just someone walking", "rgb": [0, 0, 120] }
         ]
-      },
-      {
+    },
+    {
         "id": "015",
         "text": "You're managing a network of 5 computers. One crashes. What’s your instinct?",
         "color": "blue",
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Check logs and identify failure point", "rgb": [0, 0, 110] },
-          { "text": "Replace the faulty unit and monitor", "rgb": [10, 10, 90] },
-          { "text": "Reconsider how the system is designed", "rgb": [50, 40, 20] }
+            { "text": "Check logs and identify failure point", "rgb": [0, 0, 110] },
+            { "text": "Replace the faulty unit and monitor", "rgb": [10, 10, 90] },
+            { "text": "Reconsider how the system is designed", "rgb": [50, 40, 20] }
         ]
-      },
-      {
+    },
+    {
         "id": "016",
         "text": "You see a child drawing a house. What do you think they’re expressing?",
         "color": "red",
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "A desire for safety and comfort", "rgb": [100, 20, 0] },
-          { "text": "A simple representation of home", "rgb": [30, 100, 10] },
-          { "text": "Just a fun activity with no meaning", "rgb": [0, 20, 100] }
+            { "text": "A desire for safety and comfort", "rgb": [100, 20, 0] },
+            { "text": "A simple representation of home", "rgb": [30, 100, 10] },
+            { "text": "Just a fun activity with no meaning", "rgb": [0, 20, 100] }
         ]
-      },
-      {
+    },
+    {
         "id": "017",
         "text": "A clock shows 3:15. What does it make you think of?",
         "color": "green",
         "weight": "easy",
         "image": null,
         "answers": [
-          { "text": "Time passing, moments lost", "rgb": [10, 100, 10] },
-          { "text": "A specific time for an event", "rgb": [90, 40, 10] },
-          { "text": "Just numbers and hands moving", "rgb": [0, 20, 100] }
+            { "text": "Time passing, moments lost", "rgb": [10, 100, 10] },
+            { "text": "A specific time for an event", "rgb": [90, 40, 10] },
+            { "text": "Just numbers and hands moving", "rgb": [0, 20, 100] }
         ]
-      },
-      {
+    },
+    {
         "id": "018",
         "text": "You find a puzzle piece that doesn’t fit anywhere. What do you feel?",
-        "color": "blue",
+        "color": "red",
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Frustration at the lack of order", "rgb": [0, 0, 0] },
-          { "text": "Curiosity about its origin", "rgb": [10, 20, 10] },
-          { "text": "Acceptance that not everything fits", "rgb": [0, 0, 100] }
+            { "text": "Disappointment at the lack of fit", "rgb": [120, 40, 30] },
+            { "text": "Frustration at the lack of order", "rgb": [20, 0, 80] },
+            { "text": "Curiosity about its origin", "rgb": [110, 60, 10] },
+            { "text": "Acceptance that not everything fits", "rgb": [0, 50, 50] }
         ]
-      },
-      {
+    },
+    {
         "id": "019",
         "text": "You see a child playing with blocks. What do you think they’re learning?",
         "color": "red",
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Spatial awareness and balance", "rgb": [120, 40, 30] },
-          { "text": "Creativity in building and design", "rgb": [40, 100, 30] },
-          { "text": "Just having fun with no deeper meaning", "rgb": [0, 10, 110] }
+            { "text": "Spatial awareness and balance", "rgb": [120, 40, 30] },
+            { "text": "Creativity in building and design", "rgb": [40, 100, 30] },
+            { "text": "Just having fun with no deeper meaning", "rgb": [0, 10, 110] }
         ]
-      },
-      {
+    },
+    {
         "id": "020",
         "text": "A painting shows a stormy sea. What does it evoke for you?",
         "color": "green",
         "weight": "hard",
         "image": "images/May212025022904.png",
         "answers": [
-          { "text": "Chaos and unpredictability of life", "rgb": [40, 120, 30] },
-          { "text": "The beauty of nature's power", "rgb": [60, 110, 50] },
-          { "text": "Just colors and shapes without meaning", "rgb": [0, 0, 120] }
+            { "text": "The unpredictability of nature", "rgb": [30, 120, 20] },
+            { "text": "Chaos and unpredictability of life", "rgb": [40, 120, 30] },
+            { "text": "The beauty of nature's power", "rgb": [60, 110, 50] },
+            { "text": "Just colors and shapes without meaning", "rgb": [0, 0, 120] }
         ]
-      }           
+    },
+    {
+        "id": "021",
+        "text": "You wake up in a world with no known rules. What’s your first move?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+            { "text": "Explore until something makes sense", "rgb": [120, 30, 10] },
+            { "text": "Create your own meaning or system", "rgb": [110, 40, 20] },
+            { "text": "Wait for structure to appear", "rgb": [0, 20, 110] }
+        ]
+    },
+    {
+        "id": "022",
+        "text": "You see a pattern of lights blinking randomly. What do you assume?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+            { "text": "There’s a message hidden inside", "rgb": [100, 30, 10] },
+            { "text": "It’s expressing something emotional", "rgb": [30, 100, 20] },
+            { "text": "It’s just random blinking", "rgb": [0, 10, 100] }
+        ]
+    },
+    {
+        "id": "023",
+        "text": "You’re asked to imagine a world where gravity flows sideways. What’s most important?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+            { "text": "The creative potential of such a world", "rgb": [120, 40, 10] },
+            { "text": "How life and ecosystems would adapt", "rgb": [40, 100, 30] },
+            { "text": "The physical consequences and math", "rgb": [0, 0, 120] }
+        ]
+    },
+    {
+        "id": "024",
+        "text": "You hear music from a distant room. What do you feel?",
+        "color": "green",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+            { "text": "A story forming in your mind", "rgb": [30, 110, 30] },
+            { "text": "A sudden wave of emotion", "rgb": [50, 110, 30] },
+            { "text": "Mild curiosity about the source", "rgb": [0, 10, 100] }
+        ]
+      },
+      {
+        "id": "025",
+        "text": "This image shows an abandoned building. What comes to mind?",
+        "color": "green",
+        "weight": "medium",
+        "image": "images/May212025030524.png",
+        "answers": [
+            { "text": "A lost story waiting to be uncovered", "rgb": [40, 110, 30] },
+            { "text": "A place echoing with emotion", "rgb": [50, 110, 40] },
+            { "text": "A structure falling apart", "rgb": [0, 10, 110] }
+        ]
+      },
+      {
+        "id": "026",
+        "text": "A person stares silently out a train window. What does it mean to you?",
+        "color": "green",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+            { "text": "They’re lost in memory or thought", "rgb": [40, 120, 30] },
+            { "text": "They’re emotionally detached", "rgb": [60, 110, 50] },
+            { "text": "They’re just looking at scenery", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "027",
+        "text": "What’s the result of (3 × 5) + (4 × 2)?",
+        "color": "blue",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+            { "text": "23", "rgb": [0, 0, 0] },
+            { "text": "27", "rgb": [0, 0, 110] },
+            { "text": "26", "rgb": [0, 0, 0] }
+        ]
+      },
+      {
+        "id": "028",
+        "text": "You’re designing a system with limited energy. What matters most?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+            { "text": "Efficiency and stability", "rgb": [0, 0, 110] },
+            { "text": "The system’s adaptability", "rgb": [30, 40, 40] },
+            { "text": "The symbolic potential of the design", "rgb": [90, 20, 20] }
+        ]
+      },
+      {
+        "id": "029",
+        "text": "You see a machine with gears turning at odd intervals. What do you think?",
+        "color": "blue",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+            { "text": "Something is out of sync mechanically", "rgb": [0, 0, 120] },
+            { "text": "It’s metaphorical — like time distortion", "rgb": [90, 20, 40] },
+            { "text": "It's part of a surreal narrative", "rgb": [100, 40, 10] }
+        ]
+      },
+      {
+        "id": "030",
+        "text": "What does a spiral staircase represent to you?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+            { "text": "An endless climb with no final answer", "rgb": [110, 30, 20] },
+            { "text": "A metaphor for personal growth", "rgb": [30, 110, 30] },
+            { "text": "A space-efficient architectural choice", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "031",
+        "text": "You’re shown a symbol you’ve never seen. What do you assume?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "It holds a hidden or ancient meaning", "rgb": [110, 30, 10] },
+          { "text": "It could represent emotion or feeling", "rgb": [40, 100, 30] },
+          { "text": "It’s just a random shape", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "032",
+        "text": "You are told that gravity is slowly changing. What’s your thought?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "Reality is shifting — and so must we", "rgb": [120, 30, 10] },
+          { "text": "That would create poetic forms of movement", "rgb": [50, 110, 20] },
+          { "text": "Need to recalculate physics models", "rgb": [0, 0, 120] }
+        ]
+      },
+      {
+        "id": "033",
+        "text": "You see a door labeled 'Do Not Enter'. What do you do?",
+        "color": "red",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "Open it out of curiosity", "rgb": [100, 40, 10] },
+          { "text": "Imagine what lies behind it", "rgb": [40, 90, 20] },
+          { "text": "Respect the rule and walk past", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "034",
+        "text": "You read a poem that makes no logical sense. What’s your reaction?",
+        "color": "green",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Feelings before structure — that’s beautiful", "rgb": [40, 110, 30] },
+          { "text": "Try to interpret the emotional message", "rgb": [30, 120, 40] },
+          { "text": "It’s meaningless without clarity", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "035",
+        "text": "A person refuses to speak but draws constantly. What do you understand?",
+        "color": "green",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "They’re speaking in the only way they can", "rgb": [40, 120, 30] },
+          { "text": "They’re channeling something deep within", "rgb": [60, 110, 40] },
+          { "text": "They’re avoiding verbal communication", "rgb": [0, 10, 110] }
+        ]
+      },
+      {
+        "id": "036",
+        "text": "This image shows a wilted flower under sunlight. What do you feel?",
+        "color": "green",
+        "weight": "medium",
+        "image": "images/May212025030854.png",
+        "answers": [
+          { "text": "Sadness — beauty is fading", "rgb": [40, 110, 30] },
+          { "text": "Hope — life once bloomed here", "rgb": [50, 100, 40] },
+          { "text": "Heat stress and biological decay", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "037",
+        "text": "What is the value of (12 / 3) × (2 + 1)?",
+        "color": "blue",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "12", "rgb": [0, 0, 110] },
+          { "text": "6", "rgb": [0, 0, 0] },
+          { "text": "18", "rgb": [0, 0, 0] }
+        ]
+      },
+      {
+        "id": "038",
+        "text": "You must allocate 100 units of power across 4 systems. What’s your method?",
+        "color": "blue",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "Assess needs and distribute proportionally", "rgb": [0, 0, 120] },
+          { "text": "Balance all equally for stability", "rgb": [10, 20, 100] },
+          { "text": "Focus on the most important first", "rgb": [30, 30, 40] }
+        ]
+      },
+      {
+        "id": "039",
+        "text": "You're given a sequence: A, C, F, J... What’s next?",
+        "color": "blue",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "O", "rgb": [0, 0, 110] },
+          { "text": "N", "rgb": [0, 0, 10] },
+          { "text": "P", "rgb": [0, 0, 10] }
+        ]
+      },
+      {
+        "id": "040",
+        "text": "A mirror cracks in front of you. What does it represent?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "A fractured sense of identity", "rgb": [110, 30, 30] },
+          { "text": "A symbol of change or awakening", "rgb": [40, 100, 30] },
+          { "text": "Just broken glass, no deeper meaning", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "041",
+        "text": "You’re shown a perfect circle in an empty room. What is it to you?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "An infinite cycle", "rgb": [100, 30, 20] },
+          { "text": "A peaceful visual metaphor", "rgb": [40, 110, 20] },
+          { "text": "A geometric shape with symmetry", "rgb": [0, 0, 120] }
+        ]
+      },
+      {
+        "id": "042",
+        "text": "Artificially delivering biomolecules to plant cells is important, but hard to do through the plant cell wall. What's the best way forward?",
+        "color": "blue",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "Overcome the barrier with nanotube technology", "rgb": [0, 0, 110] },
+          { "text": "Neglect the issue and change the crop", "rgb": [0, 0, 0] },
+          { "text": "Conceptualize a new plant model", "rgb": [10, 10, 20] }
+        ]
+      },
+      {
+        "id": "043",
+        "text": "Rydra Wong, the protagonist of *Babel-17*, is a poet. In Delany’s novels, poets are common. What does this say to you?",
+        "color": "green",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Poets reflect the author’s view of communication", "rgb": [40, 100, 50] },
+          { "text": "It’s a narrative trope reused too often", "rgb": [0, 0, 90] },
+          { "text": "Poets aren’t typical but they hold symbolic roles", "rgb": [30, 110, 60] }
+        ]
+      },
+      {
+        "id": "044",
+        "text": "Francis Cecil Sumner founded a psychology department to help Black students. What role did he serve?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "A strong advocate for equitable access", "rgb": [0, 0, 110] },
+          { "text": "A well-known psychologist but not impactful", "rgb": [0, 0, 0] },
+          { "text": "A minor figure remembered mostly for the school", "rgb": [0, 10, 30] }
+        ]
+      },
+      {
+        "id": "045",
+        "text": "A poet writes: 'Why, beautiful still finger, are you black? And why are you pointing upwards?' What does this evoke for you?",
+        "color": "green",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Awe and wonder at the contrast in nature", "rgb": [40, 120, 50] },
+          { "text": "Symbolic tension between beauty and mortality", "rgb": [60, 100, 60] },
+          { "text": "Just figurative language with no deeper meaning", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "046",
+        "text": "Which interpretation best supports Tannen's idea that panel discussions are more informative than debates?",
+        "color": "blue",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "Participants in panels answered more questions correctly", "rgb": [0, 0, 120] },
+          { "text": "Debates were seen as more engaging", "rgb": [0, 0, 0] },
+          { "text": "Single-commentator formats felt more structured", "rgb": [0, 0, 10] }
+        ]
+      },
+      {
+        "id": "047",
+        "text": "Some bird species lay their eggs in the nests of other birds. What does this behavior suggest?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "An evolutionary strategy to offload parenting", "rgb": [0, 0, 110] },
+          { "text": "A symbolic gesture of trust between species", "rgb": [60, 40, 10] },
+          { "text": "Just a strange habit with no pattern", "rgb": [0, 0, 0] }
+        ]
+      },
+      {
+        "id": "048",
+        "text": "A researcher observes that soil with fungi grows better plants than sterilized soil. What does this indicate?",
+        "color": "blue",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "Mycorrhizal fungi improve nutrient absorption", "rgb": [0, 0, 110] },
+          { "text": "Fungi emotionally support the plants", "rgb": [60, 20, 30] },
+          { "text": "The difference is probably coincidence", "rgb": [0, 0, 10] }
+        ]
+      },
+      {
+        "id": "049",
+        "text": "When a scientist finds the same genetic markers in two populations separated by centuries, what does that imply?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "There was migration or transfer between them", "rgb": [0, 0, 120] },
+          { "text": "The similarity is spiritual or symbolic", "rgb": [60, 40, 20] },
+          { "text": "They must have always lived together", "rgb": [10, 10, 30] }
+        ]
+      },
+      {
+        "id": "050",
+        "text": "A short story describes a girl pulling weeds with joy. What does this imply about her?",
+        "color": "green",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "She finds comfort and purpose in care", "rgb": [20, 110, 40] },
+          { "text": "She sees the garden as a metaphor for healing", "rgb": [30, 120, 50] },
+          { "text": "She is completing a task she was told to do", "rgb": [0, 0, 90] }
+        ]
+      },
+      {
+        "id": "051",
+        "text": "A poet compares the mind to a flower needing rain. What does this metaphor suggest?",
+        "color": "green",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "The mind flourishes with nourishment", "rgb": [40, 110, 40] },
+          { "text": "The mind decays when logic is absent", "rgb": [0, 10, 100] },
+          { "text": "All comparisons are inherently flawed", "rgb": [90, 20, 20] }
+        ]
+      },
+      {
+        "id": "052",
+        "text": "A young dog avoids strangers but loves its owner. What emotional response fits this pattern?",
+        "color": "green",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "The dog has formed a deep, selective bond", "rgb": [30, 110, 40] },
+          { "text": "The dog views others as threats to its leader", "rgb": [20, 90, 40] },
+          { "text": "The dog is just obeying conditioning", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "053",
+        "text": "A scientist finds that sugar in bear diets shortens hibernation. What conclusion is supported?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Human foods can biologically alter animal cycles", "rgb": [0, 0, 120] },
+          { "text": "Sugar is symbolic of modern disruption", "rgb": [40, 50, 20] },
+          { "text": "Correlation does not imply causation", "rgb": [0, 0, 40] }
+        ]
+      },
+      {
+        "id": "054",
+        "text": "A study shows cats are surprised when voices play from two locations. What does this tell us?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Cats map spatial presence from audio cues", "rgb": [0, 0, 120] },
+          { "text": "Cats feel emotions like betrayal", "rgb": [50, 60, 20] },
+          { "text": "Speakers confuse animal hearing systems", "rgb": [0, 0, 40] }
+        ]
+      },
+      {
+        "id": "055",
+        "text": "A character closes her eyes and winces at a bouquet of flowers. What might this reveal?",
+        "color": "green",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "The flowers trigger discomfort or grief", "rgb": [40, 120, 40] },
+          { "text": "She rejects symbols of beauty and tradition", "rgb": [60, 100, 30] },
+          { "text": "She’s sensitive to pollen", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "056",
+        "text": "You see a staircase that leads into the sky. What do you assume?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "It’s a metaphor for chasing the impossible", "rgb": [110, 30, 10] },
+          { "text": "A dream symbol about progress", "rgb": [40, 90, 30] },
+          { "text": "It’s an unsafe and unrealistic structure", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "057",
+        "text": "You wake up and no longer recognize your reflection. What’s your first thought?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "Reality has shifted — I’m someone new", "rgb": [120, 30, 10] },
+          { "text": "My identity is fractured or hidden", "rgb": [60, 100, 30] },
+          { "text": "There must be a logical explanation", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "058",
+        "text": "A city map shows streets rearranging every day. What does this inspire in you?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "A sense of freedom and creative motion", "rgb": [120, 30, 20] },
+          { "text": "It reflects chaos within structured systems", "rgb": [50, 90, 40] },
+          { "text": "That’s inefficient and unsustainable", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "059",
+        "text": "You’re told to invent a new number. What’s your response?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Numbers are ideas — I’ll create one with new logic", "rgb": [110, 40, 20] },
+          { "text": "I’d look for patterns or gaps in existing numbers", "rgb": [30, 100, 30] },
+          { "text": "You can’t just invent a number", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "060",
+        "text": "You walk into a room with a single red thread stretching across it. What do you feel?",
+        "color": "red",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "It must symbolize fate or connection", "rgb": [100, 30, 20] },
+          { "text": "Someone was trying to guide attention", "rgb": [30, 100, 30] },
+          { "text": "It’s just a string, nothing else", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "061",
+        "text": "Someone gives you a box and says 'what’s inside changes depending on who asks.' How do you respond?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "Reality bends to perception — that’s powerful", "rgb": [120, 40, 10] },
+          { "text": "That’s a beautiful metaphor for subjectivity", "rgb": [50, 100, 30] },
+          { "text": "It’s a trick — the contents are static", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "062",
+        "text": "A desert has a single flower growing in the sand. What does it mean to you?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Life insists on expressing itself", "rgb": [110, 30, 10] },
+          { "text": "Hope against overwhelming odds", "rgb": [40, 100, 30] },
+          { "text": "It’s just a plant in harsh conditions", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "063",
+        "text": "If you had no name, what would your mind become?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "Free — I’d redefine myself constantly", "rgb": [120, 30, 20] },
+          { "text": "Lost — identity is part of self", "rgb": [40, 100, 30] },
+          { "text": "Unchanged — a name doesn’t alter who I am", "rgb": [0, 0, 110] }
+        ]
+      },
+      {
+        "id": "064",
+        "text": "A machine can write poems but never feel. What does this say about intelligence?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Emotion is the missing piece of true thinking", "rgb": [100, 30, 20] },
+          { "text": "Poetry doesn’t require emotion, just pattern", "rgb": [20, 40, 100] },
+          { "text": "Machines can’t truly understand what they create", "rgb": [40, 80, 40] }
+        ]
+      },
+      {
+        "id": "065",
+        "text": "You see a tree growing upside down. What’s your reaction?",
+        "color": "red",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "That’s beautiful — it defies nature’s limits", "rgb": [100, 40, 10] },
+          { "text": "I’d want to learn how it grew that way", "rgb": [30, 100, 30] },
+          { "text": "I’d assume something’s wrong with the soil", "rgb": [0, 0, 100] }
+        ]
+      }
     ]
-  }
-  
+}
