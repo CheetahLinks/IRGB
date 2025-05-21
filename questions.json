@@ -1,0 +1,114 @@
+{
+    "questions": [
+      {
+        "id": "R01",
+        "text": "You're given a blank canvas. What's your first thought?",
+        "color": "red",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "An opportunity to explore without rules", "rgb": [100, 20, 0] },
+          { "text": "A surface to create a masterpiece", "rgb": [30, 100, 10] },
+          { "text": "A tool to practice technical drawing", "rgb": [0, 20, 100] }
+        ]
+      },
+      {
+        "id": "G01",
+        "text": "Look at this image of a quiet mountain stream. What stands out most to you?",
+        "color": "green",
+        "weight": "easy",
+        "image": "images/May202025065932.png",
+        "answers": [
+          { "text": "The peacefulness and natural flow", "rgb": [10, 100, 10] },
+          { "text": "The shapes and textures of the rocks", "rgb": [70, 40, 10] },
+          { "text": "How the environment could be mapped in 3D", "rgb": [0, 10, 100] }
+        ]
+      },
+      {
+        "id": "B01",
+        "text": "What is the next number in the sequence: 2, 4, 8, 16, __?",
+        "color": "blue",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "20", "rgb": [0, 0, 0] },
+          { "text": "24", "rgb": [0, 0, 0] },
+          { "text": "32", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "R02",
+        "text": "You are told to solve a problem with no rules or tools. What do you do first?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Break down what a 'solution' really means", "rgb": [100, 20, 10] },
+          { "text": "Start brainstorming ideas without limitation", "rgb": [90, 40, 10] },
+          { "text": "Ask for clarification or structure", "rgb": [0, 10, 100] }
+        ]
+      },      
+      {
+        "id": "G02",
+        "text": "What emotion does this abstract painting evoke most?",
+        "color": "green",
+        "weight": "medium",
+        "image": "images/May202025072740.png",
+        "answers": [
+          { "text": "Curiosity, like something's hidden", "rgb": [40, 100, 10] },
+          { "text": "Anxiety or a feeling of chaos", "rgb": [10, 100, 30] },
+          { "text": "Nothing really, just colors and lines", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "B02",
+        "text": "What is a solution to the equation x^2 / 36 = 25?",
+        "color": "blue",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "450", "rgb": [0, 0, 0] },
+          { "text": "900", "rgb": [0, 0, 0] },
+          { "text": "30", "rgb": [0, 0, 100] },
+          { "text": "6", "rgb": [0, 0, 0] }
+        ]
+      },
+      {
+        "id": "R03",
+        "text": "You find a broken clock. What do you think it represents?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "Time is broken and unpredictable", "rgb": [100, 20, 10] },
+          { "text": "A moment frozen in time", "rgb": [30, 100, 10] },
+          { "text": "Just a broken object, nothing more", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "G03",
+        "text": "A sculpture uses jagged, twisted metal to represent time. What interpretation feels most natural to you?",
+        "color": "green",
+        "weight": "hard",
+        "image": "images/May202025072501.png",
+        "answers": [
+          { "text": "Time is harsh, painful, and unpredictable", "rgb": [20, 100, 10] },
+          { "text": "It captures the complexity of aging", "rgb": [40, 90, 20] },
+          { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "B03",
+        "text": "If a train leaves Point A at 60mph and another leaves Point B at 45mph, 120 miles apart, when do they meet?",
+        "color": "blue",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "1 hour", "rgb": [0, 0, 0] },
+          { "text": "1.2 hours", "rgb": [0, 0, 0] },
+          { "text": "1.09 hours", "rgb": [0, 0, 100] }
+        ]
+      }      
+    ]
+  }
+  
