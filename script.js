@@ -6,8 +6,8 @@ let selectedCount = 0;
 const questionsPerDifficulty = 1; // adjustable for scaling
 
 document.getElementById('start-btn').addEventListener('click', () => {
-  document.getElementById('intro-container').style.display = 'none';
-  document.getElementById('question-container').style.display = 'block';
+  document.getElementById('intro-container');
+  document.getElementById('question-container');
   fetch('questions.json')
     .then(res => res.json())
     .then(data => {
@@ -41,7 +41,6 @@ function showQuestion(index) {
   const answersEl = document.getElementById('answer-buttons');
   const nextBtn = document.getElementById('next-btn');
 
-  imgEl.style.display = q.image ? 'block' : 'none';
   imgEl.src = q.image || '';
   textEl.textContent = q.text;
   answersEl.innerHTML = '';
@@ -86,11 +85,7 @@ function showResult() {
   const hex = `#${toHex(R)}${toHex(G)}${toHex(B)}`;
   const intensity = Math.round(((R + G + B) / (3 * 255)) * 100);
 
-  container.style.display = 'none';
-  resultBox.style.display = 'block';
   colorBox.style.backgroundColor = hex;
-  colorBox.style.width = '200px';
-  colorBox.style.height = '100px';
   hexDisplay.textContent = `Hexcode: ${hex}`;
   intensityDisplay.textContent = `Intensity: ${intensity}%`;
 }
