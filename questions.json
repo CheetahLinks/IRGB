@@ -64,7 +64,7 @@
         "id": "B02",
         "text": "What is a solution to the equation x^2 / 36 = 25?",
         "color": "blue",
-        "weight": "hard",
+        "weight": "medium",
         "image": null,
         "answers": [
           { "text": "450", "rgb": [0, 0, 0] },
