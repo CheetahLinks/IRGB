@@ -548,14 +548,15 @@
       },
       {
         "id": "046",
-        "text": "Which interpretation best supports Tannen's idea that panel discussions are more informative than debates?",
+        "text": "Which interpretation best supports the idea that panel discussions are more informative than debates?",
         "color": "blue",
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Participants in panels answered more questions correctly", "rgb": [0, 0, 120] },
-          { "text": "Debates were seen as more engaging", "rgb": [0, 0, 0] },
-          { "text": "Single-commentator formats felt more structured", "rgb": [0, 0, 10] }
+            { "text": "Panels allow for more diverse perspectives", "rgb": [0, 0, 120] },
+            { "text": "Debates often lead to emotional arguments", "rgb": [60, 40, 20] },
+            { "text": "Panels are less structured and more chaotic", "rgb": [20, 0, 100] },
+            { "text": "Debates are more entertaining than informative", "rgb": [50, 0, 0] }
         ]
       },
       {
