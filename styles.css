@@ -68,7 +68,7 @@ body {
     cursor: not-allowed;
   }
   
-  #next-btn, #start-btn, #restart-btn {
+  #next-btn, #short-btn, #long-btn, #restart-btn {
     width: 100%;
     padding: 0.75rem;
     font-size: 1rem;
@@ -80,7 +80,7 @@ body {
     transition: background-color 0.2s;
   }
   
-  #next-btn:hover:not(:disabled), #start-btn:hover:not(:disabled), #restart-btn:hover:not(:disabled) {
+  #next-btn:hover:not(:disabled), #short-btn:hover:not(:disabled), #long-btn.answer-btn:hover:not(:disabled), #restart-btn:hover:not(:disabled) {
     background-color: #c40000;
     border: #ff6666;
     border-width: 5px;

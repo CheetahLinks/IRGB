@@ -4,9 +4,33 @@ let currentQuestions = [];
 let score = { r: 0, g: 0, b: 0 };
 let colorCounts = { r: 0, g: 0, b: 0 };
 let selectedCount = 0;
-const maxQuestions = 20;
+let maxQuestions = 20;
 
-document.getElementById('start-btn').addEventListener('click', () => {
+const shortBtn = document.getElementById('short-btn');
+const longBtn = document.getElementById('long-btn');
+
+shortBtn.addEventListener('click', () => {
+    document.getElementById('intro-container').style.display = 'none';
+    document.getElementById('question-container').style.display = 'block';
+    fetch('questions.json')
+        .then(res => {
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+        return res.json();
+        })
+        .then(data => {
+        questions = data.questions;
+        currentQuestions = getBalancedQuestions(questions);
+        countColorTargets(currentQuestions);
+        showQuestion(currentIndex);
+        })
+        .catch(err => {
+        console.error("Failed to load questions.json:", err);
+        document.getElementById("question-text").textContent = "Error loading questions. Check console.";
+        });
+});
+
+longBtn.addEventListener('click', () => {
+    maxQuestions = 100;
     document.getElementById('intro-container').style.display = 'none';
     document.getElementById('question-container').style.display = 'block';
     fetch('questions.json')
@@ -140,9 +164,9 @@ function showResult() {
     const intensity = Math.round((totalScore / maxScore) * 100);
 
     const colorMap = [
-        { label: 'Red – Free-Thinking', key: 'r1', value: colorScore.r1 },
-        { label: 'Green – Expressive', key: 'g1', value: colorScore.g1 },
-        { label: 'Blue – Structured', key: 'b1', value: colorScore.b1 }
+        { label: 'Red – Free-Thinking', key: 'r1', value: colorScore.r2 },
+        { label: 'Green – Expressive', key: 'g1', value: colorScore.g2 },
+        { label: 'Blue – Structured', key: 'b1', value: colorScore.b2 }
     ];
     colorMap.sort((a, b) => b.value - a.value);
     const dominant = colorMap[0];
