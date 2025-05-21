@@ -117,9 +117,9 @@ function showResult() {
     let comment = "";
 
     const colorScore = { r1: 0, r2: 0, g1: 0, g2: 0, b1: 0, b2: 0 };
-    colorScore.r1 = colorCounts.r > 0 ? Math.round(score.r / (colorCounts.r * 100)) : 0;
-    colorScore.g1 = colorCounts.g > 0 ? Math.round(score.g / (colorCounts.g * 100)) : 0;
-    colorScore.b1 = colorCounts.b > 0 ? Math.round(score.b / (colorCounts.b * 100)) : 0;
+    colorScore.r1 = Math.round(score.r / (colorCounts.r * 100));
+    colorScore.g1 = Math.round(score.g / (colorCounts.g * 100));
+    colorScore.b1 = Math.round(score.b / (colorCounts.b * 100));
     colorScore.r2 = Math.round((score.r / (currentQuestions.length)) * 255 / 100);
     colorScore.g2 = Math.round((score.g / (currentQuestions.length)) * 255 / 100);
     colorScore.b2 = Math.round((score.b / (currentQuestions.length)) * 255 / 100);
