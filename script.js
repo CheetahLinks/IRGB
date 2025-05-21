@@ -70,21 +70,30 @@ function showQuestion(index) {
         btn.textContent = ans.text;
         btn.className = 'answer-btn';
         btn.onclick = () => {
-        score.r += ans.rgb[0];
-        score.g += ans.rgb[1];
-        score.b += ans.rgb[2];
-        document.querySelectorAll('.answer-btn').forEach(b => {
-            if (b.classList.contains('selected')) 
-                b.classList.remove('selected');
-        });
-        btn.classList.add('selected');
-        nextBtn.disabled = false;
+            document.querySelectorAll('.answer-btn').forEach(b => b.classList.remove('selected'));
+            btn.classList.add('selected');
+            nextBtn.disabled = false;
         };
         answersEl.appendChild(btn);
     });
 }
 
+function submit() {
+    const selectedBtn = document.querySelector('.answer-btn.selected');
+    if (!selectedBtn) return;
+    const selectedAnswer = currentQuestions[currentIndex].answers.find(
+        a => a.text === selectedBtn.textContent
+    );
+    if (selectedAnswer) {
+        score.r += selectedAnswer.rgb[0];
+        score.g += selectedAnswer.rgb[1];
+        score.b += selectedAnswer.rgb[2];
+        selectedCount++;
+    }
+}
+
 document.getElementById('next-btn').addEventListener('click', () => {
+    submit()
     currentIndex++;
     if (currentIndex < currentQuestions.length) {
         showQuestion(currentIndex);
