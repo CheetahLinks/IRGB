@@ -4,7 +4,7 @@ let currentQuestions = [];
 let score = { r: 0, g: 0, b: 0 };
 let colorCounts = { r: 0, g: 0, b: 0 };
 let selectedCount = 0;
-const questionsPerDifficulty = 1; // adjustable for scaling
+const maxQuestions = 20;
 
 document.getElementById('start-btn').addEventListener('click', () => {
     document.getElementById('intro-container').style.display = 'none';
@@ -38,17 +38,31 @@ function countColorTargets(questions) {
 function getBalancedQuestions(questions) {
     const colors = ['red', 'green', 'blue'];
     const difficulties = ['easy', 'medium', 'hard'];
-    let selected = [];
+    const selected = [];
+    const usedIds = new Set();
 
+    const pool = {};
+    for (let d of difficulties) {
+    for (let c of colors) {
+        pool[`${d}_${c}`] = questions.filter(q => q.color === c && q.weight === d);
+    }
+    }
+    outer: while (selected.length < maxQuestions) {
     for (let d of difficulties) {
         for (let c of colors) {
-        const pool = questions.filter(q => q.color === c && q.weight === d);
-        if (pool.length > 0) {
-            const sample = pool[Math.floor(Math.random() * pool.length)];
-            selected.push(sample);
+        const key = `${d}_${c}`;
+        const available = pool[key].filter(q => !usedIds.has(q.id));
+        if (available.length > 0) {
+            const chosen = available[Math.floor(Math.random() * available.length)];
+            selected.push(chosen);
+            usedIds.add(chosen.id);
+            if (selected.length >= maxQuestions) break outer;
         }
         }
     }
+    if (Object.values(pool).every(qList => qList.length === 0)) break;
+    }
+
     return selected;
 }
 
