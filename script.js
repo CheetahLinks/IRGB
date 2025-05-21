@@ -117,7 +117,7 @@ function showResult() {
     colorScore.g2 = Math.round((score.g / (currentQuestions.length)) * 255 / 100);
     colorScore.b2 = Math.round((score.b / (currentQuestions.length)) * 255 / 100);
     const hex = `#${toHex(colorScore.r2)}${toHex(colorScore.g2)}${toHex(colorScore.b2)}`;
-    const intensity = Math.round(((colorScore.r1 + colorScore.g1 + colorScore.b1) / (3 * 255)) * 100);
+    const intensity = Math.round(((colorScore.r1 + colorScore.g1 + colorScore.b1) / 255) * 100);
   
     container.style.display = 'none';
     resultBox.style.display = 'block';
