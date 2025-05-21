@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IRGB Intelligence Test</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IRGB Intelligence Test</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div id="app">
-    <h1>IRGB Intelligence Profile</h1>
+    <div id="app">
+        <h1>IRGB Intelligence Profile</h1>
 
-    <div id="intro-container">
-      <p>Welcome to the IRGB Intelligence Test.</p>
-      <p>This is a cognitive profiling system designed to reflect how your mind expresses intelligence—not how much of it you have. Your answers are anonymous and no personal information is stored or tracked. You’ll be shown a series of short questions, each with multiple choice answers. At the end, you’ll get a unique color profile representing your thinking style.</p>
-      <button id="start-btn">Start</button>
+        <div id="intro-container">
+        <p>Welcome to the IRGB Intelligence Test.</p>
+        <p>This is a cognitive profiling system designed to reflect how your mind expresses intelligence—not how much of it you have. Your answers are anonymous and no personal information is stored or tracked. You’ll be shown a series of short questions, each with multiple choice answers. At the end, you’ll get a unique color profile representing your thinking style.</p>
+        <button id="start-btn">Start</button>
+        </div>
+
+        <div id="question-container" style="display:none;">
+        <img id="question-image" src="" alt="" style="display:none;" />
+        <p id="question-text"></p>
+        <div id="answer-buttons"></div>
+        <button id="next-btn" disabled>Submit</button>
+        </div>
+
+        <div id="result" style="display:none;">
+        <h2>Your Mind Color</h2>
+        <div id="color-box"></div>
+        <p id="hex-display"></p>
+        <p id="intensity-display"></p>
+        <button id="restart-btn">Restart</button>
+        </div>
     </div>
 
-    <div id="question-container">
-      <img id="question-image" src="" alt=""/>
-      <p id="question-text"></p>
-      <div id="answer-buttons"></div>
-      <button id="next-btn" disabled>Next</button>
-    </div>
-
-    <div id="result">
-      <h2>Your Mind Color</h2>
-      <div id="color-box"></div>
-      <p id="hex-display"></p>
-      <p id="intensity-display"></p>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

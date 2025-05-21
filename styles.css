@@ -68,7 +68,7 @@ body {
     cursor: not-allowed;
   }
   
-  #next-btn {
+  #next-btn, #start-btn {
     width: 100%;
     padding: 0.75rem;
     font-size: 1rem;
@@ -80,7 +80,7 @@ body {
     transition: background-color 0.2s;
   }
   
-  #next-btn:hover:not(:disabled) {
+  #next-btn:hover:not(:disabled), #start-btn:hover:not(:disabled) {
     background-color: #0056b3;
   }
   
