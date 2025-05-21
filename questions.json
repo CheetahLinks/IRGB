@@ -1,7 +1,7 @@
 {
     "questions": [
       {
-        "id": "R01",
+        "id": "001",
         "text": "You're given a blank canvas. What's your first thought?",
         "color": "red",
         "weight": "easy",
@@ -13,55 +13,55 @@
         ]
       },
       {
-        "id": "G01",
+        "id": "002",
         "text": "Look at this image of a quiet mountain stream. What stands out most to you?",
         "color": "green",
         "weight": "easy",
         "image": "images/May202025065932.png",
         "answers": [
           { "text": "The peacefulness and natural flow", "rgb": [10, 100, 10] },
-          { "text": "The shapes and textures of the rocks", "rgb": [70, 40, 10] },
+          { "text": "The shapes and textures of the rocks", "rgb": [90, 40, 10] },
           { "text": "How the environment could be mapped in 3D", "rgb": [0, 10, 100] }
         ]
       },
       {
-        "id": "B01",
+        "id": "003",
         "text": "What is the next number in the sequence: 2, 4, 8, 16, __?",
         "color": "blue",
         "weight": "easy",
         "image": null,
         "answers": [
           { "text": "20", "rgb": [0, 0, 0] },
-          { "text": "24", "rgb": [0, 0, 0] },
+          { "text": "24", "rgb": [10, 20, 10] },
           { "text": "32", "rgb": [0, 0, 100] }
         ]
       },
       {
-        "id": "R02",
+        "id": "004",
         "text": "You are told to solve a problem with no rules or tools. What do you do first?",
         "color": "red",
         "weight": "medium",
         "image": null,
         "answers": [
-          { "text": "Break down what a 'solution' really means", "rgb": [100, 20, 10] },
-          { "text": "Start brainstorming ideas without limitation", "rgb": [90, 40, 10] },
-          { "text": "Ask for clarification or structure", "rgb": [0, 10, 100] }
+          { "text": "Break down what a 'solution' really means", "rgb": [110, 30, 20] },
+          { "text": "Start brainstorming ideas without limitation", "rgb": [100, 50, 20] },
+          { "text": "Ask for clarification or structure", "rgb": [0, 20, 110] }
         ]
       },      
       {
-        "id": "G02",
+        "id": "005",
         "text": "What emotion does this abstract painting evoke most?",
         "color": "green",
         "weight": "medium",
         "image": "images/May202025072740.png",
         "answers": [
-          { "text": "Curiosity, like something's hidden", "rgb": [40, 100, 10] },
-          { "text": "Anxiety or a feeling of chaos", "rgb": [10, 100, 30] },
-          { "text": "Nothing really, just colors and lines", "rgb": [0, 0, 100] }
+          { "text": "Curiosity, like something's hidden", "rgb": [50, 110, 20] },
+          { "text": "Anxiety or a feeling of chaos", "rgb": [20, 110, 40] },
+          { "text": "Nothing really, just colors and lines", "rgb": [0, 0, 110] }
         ]
       },
       {
-        "id": "B02",
+        "id": "006",
         "text": "What is a solution to the equation x^2 / 36 = 25?",
         "color": "blue",
         "weight": "medium",
@@ -69,36 +69,36 @@
         "answers": [
           { "text": "450", "rgb": [0, 0, 0] },
           { "text": "900", "rgb": [0, 0, 0] },
-          { "text": "30", "rgb": [0, 0, 100] },
+          { "text": "30", "rgb": [0, 0, 110] },
           { "text": "6", "rgb": [0, 0, 0] }
         ]
       },
       {
-        "id": "R03",
+        "id": "007",
         "text": "You find a broken clock. What do you think it represents?",
         "color": "red",
         "weight": "hard",
         "image": null,
         "answers": [
-          { "text": "Time is broken and unpredictable", "rgb": [100, 20, 10] },
-          { "text": "A moment frozen in time", "rgb": [30, 100, 10] },
-          { "text": "Just a broken object, nothing more", "rgb": [0, 0, 100] }
+          { "text": "Time is broken and unpredictable", "rgb": [120, 40, 30] },
+          { "text": "A moment frozen in time", "rgb": [50, 120, 30] },
+          { "text": "Just a broken object, nothing more", "rgb": [0, 0, 120] }
         ]
       },
       {
-        "id": "G03",
+        "id": "008",
         "text": "A sculpture uses jagged, twisted metal to represent time. What interpretation feels most natural to you?",
         "color": "green",
         "weight": "hard",
         "image": "images/May202025072501.png",
         "answers": [
-          { "text": "Time is harsh, painful, and unpredictable", "rgb": [20, 100, 10] },
-          { "text": "It captures the complexity of aging", "rgb": [40, 90, 20] },
-          { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 100] }
+          { "text": "Time is harsh, painful, and unpredictable", "rgb": [40, 120, 30] },
+          { "text": "It captures the complexity of aging", "rgb": [60, 110, 50] },
+          { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 120] }
         ]
       },
       {
-        "id": "B03",
+        "id": "009",
         "text": "If a train leaves Point A at 60mph and another leaves Point B at 45mph, 120 miles apart, when do they meet?",
         "color": "blue",
         "weight": "hard",
@@ -106,9 +106,141 @@
         "answers": [
           { "text": "1 hour", "rgb": [0, 0, 0] },
           { "text": "1.2 hours", "rgb": [0, 0, 0] },
-          { "text": "1.09 hours", "rgb": [0, 0, 100] }
+          { "text": "1.09 hours", "rgb": [0, 0, 120] }
         ]
-      }      
+      },
+      {
+        "id": "010",
+        "text": "You're asked to create a new language. What guides your first decisions?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "How sounds feel when spoken", "rgb": [120, 40, 10] },
+          { "text": "What cultural stories it might carry", "rgb": [40, 100, 30] },
+          { "text": "How consistent and learnable it is", "rgb": [0, 10, 110] }
+        ]
+      },
+      {
+        "id": "011",
+        "text": "You hear a child humming to themselves in a hallway. What do you feel?",
+        "color": "green",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "A sense of nostalgia or memory", "rgb": [20, 120, 30] },
+          { "text": "Curiosity about what they’re imagining", "rgb": [50, 110, 20] },
+          { "text": "Neutral — just ambient sound", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "012",
+        "text": "Which of the following best describes a prime number?",
+        "color": "blue",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "A number only divisible by 1 and itself", "rgb": [0, 0, 110] },
+          { "text": "A number that repeats in patterns", "rgb": [20, 20, 20] },
+          { "text": "A number greater than 10 with no factors", "rgb": [0, 0, 0] }
+        ]
+      },
+      {
+        "id": "013",
+        "text": "A door appears in the middle of a field. What do you do?",
+        "color": "red",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Open it without hesitation", "rgb": [110, 40, 10] },
+          { "text": "Look for clues about why it’s there", "rgb": [30, 80, 40] },
+          { "text": "Check if it’s part of a hidden mechanism", "rgb": [0, 10, 110] }
+        ]
+      },
+      {
+        "id": "014",
+        "text": "This photo shows a lone figure walking through fog. What does it express?",
+        "color": "green",
+        "weight": "hard",
+        "image": "images/May212025023111.png",
+        "answers": [
+          { "text": "Isolation, yet peace", "rgb": [30, 120, 20] },
+          { "text": "Uncertainty about the future", "rgb": [50, 110, 40] },
+          { "text": "Nothing — just someone walking", "rgb": [0, 0, 120] }
+        ]
+      },
+      {
+        "id": "015",
+        "text": "You're managing a network of 5 computers. One crashes. What’s your instinct?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Check logs and identify failure point", "rgb": [0, 0, 110] },
+          { "text": "Replace the faulty unit and monitor", "rgb": [10, 10, 90] },
+          { "text": "Reconsider how the system is designed", "rgb": [50, 40, 20] }
+        ]
+      },
+      {
+        "id": "016",
+        "text": "You see a child drawing a house. What do you think they’re expressing?",
+        "color": "red",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "A desire for safety and comfort", "rgb": [100, 20, 0] },
+          { "text": "A simple representation of home", "rgb": [30, 100, 10] },
+          { "text": "Just a fun activity with no meaning", "rgb": [0, 20, 100] }
+        ]
+      },
+      {
+        "id": "017",
+        "text": "A clock shows 3:15. What does it make you think of?",
+        "color": "green",
+        "weight": "easy",
+        "image": null,
+        "answers": [
+          { "text": "Time passing, moments lost", "rgb": [10, 100, 10] },
+          { "text": "A specific time for an event", "rgb": [90, 40, 10] },
+          { "text": "Just numbers and hands moving", "rgb": [0, 20, 100] }
+        ]
+      },
+      {
+        "id": "018",
+        "text": "You find a puzzle piece that doesn’t fit anywhere. What do you feel?",
+        "color": "blue",
+        "weight": "medium",
+        "image": null,
+        "answers": [
+          { "text": "Frustration at the lack of order", "rgb": [0, 0, 0] },
+          { "text": "Curiosity about its origin", "rgb": [10, 20, 10] },
+          { "text": "Acceptance that not everything fits", "rgb": [0, 0, 100] }
+        ]
+      },
+      {
+        "id": "019",
+        "text": "You see a child playing with blocks. What do you think they’re learning?",
+        "color": "red",
+        "weight": "hard",
+        "image": null,
+        "answers": [
+          { "text": "Spatial awareness and balance", "rgb": [120, 40, 30] },
+          { "text": "Creativity in building and design", "rgb": [40, 100, 30] },
+          { "text": "Just having fun with no deeper meaning", "rgb": [0, 10, 110] }
+        ]
+      },
+      {
+        "id": "020",
+        "text": "A painting shows a stormy sea. What does it evoke for you?",
+        "color": "green",
+        "weight": "hard",
+        "image": "images/May212025022904.png",
+        "answers": [
+          { "text": "Chaos and unpredictability of life", "rgb": [40, 120, 30] },
+          { "text": "The beauty of nature's power", "rgb": [60, 110, 50] },
+          { "text": "Just colors and shapes without meaning", "rgb": [0, 0, 120] }
+        ]
+      }           
     ]
   }
   
