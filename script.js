@@ -73,7 +73,6 @@ function showQuestion(index) {
         score.r += ans.rgb[0];
         score.g += ans.rgb[1];
         score.b += ans.rgb[2];
-        document.querySelectorAll('.answer-btn').forEach(b => b.disabled = true);
         btn.classList.add('selected');
         nextBtn.disabled = false;
         };
