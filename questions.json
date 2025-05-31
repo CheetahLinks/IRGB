@@ -93,7 +93,7 @@
         "image": "images/May202025072501.png",
         "answers": [
             { "text": "Time is chaotic and unpredictable", "rgb": [50, 100, 20] },
-            { "text": "Time is harsh, painful, and unpredictable", "rgb": [40, 100, 30] },
+            { "text": "Time is harsh, painful", "rgb": [40, 100, 30] },
             { "text": "It captures the complexity of aging", "rgb": [60, 100, 50] },
             { "text": "It’s just artistic flair, no deeper meaning", "rgb": [0, 0, 100] }
         ]
